@@ -1,7 +1,7 @@
 package ex_01_Java_Basics;
 
 public class Lab024_printf {
-    static void main(){
+    public static void main(String[] args) {
 
         int table = 9;
         System.out.printf("%dx1=%d\n", table, table*1);
