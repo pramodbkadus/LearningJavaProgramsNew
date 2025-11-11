@@ -1,0 +1,24 @@
+package ex_20_OOPs_Polymorphism.methodOverloading;
+
+public class Lab187_Poly_MethodOverloading {
+        public static void main(String[] args) {
+            MathOperations m1 = new MathOperations();
+            m1.add(3,4);
+            m1.add(3,4,6);
+            m1.add(3.14,4.56);
+        }
+}
+class MathOperations{
+
+    int add(int a, int b){
+        return a+b;
+    }
+
+    int add(int a, int b, int c){
+        return a+b+c;
+    }
+
+    double add(double a, double b){
+        return a+b;
+    }
+}
