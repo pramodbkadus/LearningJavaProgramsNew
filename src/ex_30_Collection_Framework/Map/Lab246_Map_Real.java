@@ -1,0 +1,26 @@
+package ex_30_Collection_Framework.Map;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class Lab246_Map_Real {
+    public static void main(String[] args) {
+
+        Map<String,Object> student1 = new HashMap<>();
+        student1.put("name","Diwakar");
+        student1.put("phone","987654321");
+        student1.put("address","BLR");
+        student1.put("home_address","BTM");
+
+        System.out.println(student1);
+
+        Map<String,Object> student2 = new LinkedHashMap<>();
+        student2.put("name","Diksha");
+        student2.put("phone","987654321");
+        student2.put("address","DEL");
+        student2.put("home_address","RG");
+
+        System.out.println(student2);
+     }
+}
